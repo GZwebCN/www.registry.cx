@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
+<!-- https://fenfa.register.icu/script.js
+https://fenfa.register.icu/gsap.min.js
+https://fenfa.register.icu/style.css
+ -->
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Registry.cx WebSite Page！</title>
+<link href="https://cdns.localhost.com.cn/localhost/2021/06/20210606160050389.png" rel="shortcut icon">
 
-You can use the [editor on GitHub](https://github.com/GZwebCN/www.registry.cx/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Sen&amp;display=swap'>
+<link rel="stylesheet" href="https://fenfa.register.icu/style.css">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</head>
+<body>
 
-### Markdown
+<!-- partial:index.partial.html -->
+<div id="main">
+    <h1>Free DomainName Club Registry.cx </h1>
+    <div class="content">
+        <!-- <p>You can press <kbd>▲</kbd> <kbd>▼</kbd> on your keyboard or swipe up/down to navigate. Mouse wheel works too.</p> -->
+        <p>技术支持 ： <a href="https://www.gzweb.cn/">GZWeb.CN</a> | <a href="https://www.localhost.com.cn/domainname">联系我们</a> | <a href="mailto:support@gzweb.cn">support@gzweb.cn<a></p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+        	<p><a href="https://www.BuyDomain.cc">BuyDomain.cc</a> | <a href="http://www.aliyun.com/">阿里云</a> | <a href="https://www.localhost.com.cn/">软件资讯</a> | <a href="https://www.offercn.com/">OfferCN</a> | <a href="https://www.tvod.cn/">TVOD.CN</a> | <a href="https://www.xreg.cn/">软件注册机</a> | <a href="https://www.register.icu/">Register.Icu</a>  | <a href="https://www.laise.com.cn/">LAISE.COM.CN</a> </p>
+    </div>
+    <div class="buttons">
+        <button class="next" onclick="go(-1)"></button>
+        <button class="prev" onclick="go(1)"></button>
+    </div>
+</div>
+<!-- partial -->
 
-# Header 1
-## Header 2
-### Header 3
+<script src='https://fenfa.register.icu/gsap.min.js'></script>
+<script  src="https://fenfa.register.icu/script.js"></script>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GZwebCN/www.registry.cx/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
